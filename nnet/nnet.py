@@ -16,6 +16,8 @@ st.title("Ants & Bees")
 
 uploaded_file = st.file_uploader("Load an image!", ['png', 'jpg', 'jpeg'])
 
+null = None
+
 if uploaded_file is not None:
   Image(uploaded_file, width=150, height=150)
   img = image.load_img(uploaded_file, target_size=(150, 150), grayscale=False)
