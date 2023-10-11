@@ -10,7 +10,7 @@ from IPython.display import Image
 from tensorflow.keras.preprocessing import image
 
 
-model_loaded = tf.keras.models.load_model('./nnet/my_model.keras')
+model_loaded = tf.keras.models.load_model('./nnet/my_model.h5')
 
 st.title("Ants & Bees")
 
