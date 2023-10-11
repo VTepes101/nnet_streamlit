@@ -31,5 +31,4 @@ if uploaded_file is not None:
   fig = plt.figure()
   plt.imshow(img)
   plt.title(f'ant:{100*(1-score):.2f}%; bee:{100 * score:.2f}%')
-  plt.show
   st.pyplot(fig)
