@@ -25,7 +25,7 @@ if uploaded_file is not None:
   x = 255 - x
   x /= 255
   x = np.expand_dims(x, axis=0)
-  prediction = model.predict(x)
+  prediction = tf.keras.model.predict(x)
   score = float(prediction[0])
   fig = plt.figure()
   plt.imshow(img)
