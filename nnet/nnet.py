@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing import image
 
 
 model_loaded = tf.keras.models.load_model('./nnet/my_model.h5')
-#model_loaded.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+model_loaded.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 st.title("Ants & Bees")
 
