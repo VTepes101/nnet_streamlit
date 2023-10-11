@@ -14,7 +14,6 @@ model_loaded = tf.keras.models.load_model('./nnet/my_model.h5')
 
 st.title("Ants & Bees")
 
-st.header("Ants & Bees")
 uploaded_file = st.file_uploader("Load an image!", [png, jpg, jpeg])
 
 if uploaded_file is not null:
